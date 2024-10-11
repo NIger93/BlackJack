@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 10px;
+    aspect-ratio: 5 / 7;
+    border: 1px solid black;
+    color: black;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.top{
+    align-self: flex-start;
+}
+.center{
+    align-self: center;
+    font-size: 100px;
+}
+.bottom{
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+
+.player-hand{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    border: 1px solid black ;
+    padding: 10px;
+}
+.croupier-hand{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    border: 1px solid black ;
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
